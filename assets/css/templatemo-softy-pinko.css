@@ -186,7 +186,7 @@ body {
 }
 
 .center-text p {
-  font-size: 15px;
+  font-size: 18px;
   color: #777;
   margin-bottom: 30px;
 }
@@ -435,7 +435,7 @@ header
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 16px;
   color: #fff;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -670,7 +670,7 @@ welcome
 
 .welcome-area .header-text p {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   color: #fff;
   line-height: 28px;
   letter-spacing: 0.25px;
@@ -904,7 +904,7 @@ parallax & home seperator
   letter-spacing: 0.25px;
   line-height: 26px;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .mini .mini-content .info p span {
@@ -1356,7 +1356,7 @@ blog
 
 .blog-post-thumb .text {
   font-weight: 400;
-  font-size: 13px;
+  font-size: 15px;
   color: #777;
   letter-spacing: 0.26px;
   line-height: 26px;
@@ -1585,4 +1585,21 @@ preloader
   100% {
     opacity: 0;
   }
+}
+
+
+
+
+
+
+
+
+.btn-own {
+  background-color: #ff589e;
+  color: #fff;
+}
+
+.btn-own:hover {
+  background-color: #8261ee;
+  color: #fff;
 }
