@@ -186,7 +186,7 @@ body {
 }
 
 .center-text p {
-  font-size: 15px;
+  font-size: 18px;
   color: #777;
   margin-bottom: 30px;
 }
@@ -435,7 +435,7 @@ header
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 16px;
   color: #fff;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -670,7 +670,7 @@ welcome
 
 .welcome-area .header-text p {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   color: #fff;
   line-height: 28px;
   letter-spacing: 0.25px;
@@ -904,7 +904,7 @@ parallax & home seperator
   letter-spacing: 0.25px;
   line-height: 26px;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .mini .mini-content .info p span {
@@ -1356,7 +1356,7 @@ blog
 
 .blog-post-thumb .text {
   font-weight: 400;
-  font-size: 13px;
+  font-size: 15px;
   color: #777;
   letter-spacing: 0.26px;
   line-height: 26px;
@@ -1586,67 +1586,3 @@ preloader
     opacity: 0;
   }
 }
-
-
-
-
-/* OYBEK */
-
-.main-content {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-@media only screen and (max-width: 600px) {
-  .main-content {
-    margin-top: 0px;
-    margin-bottom: 0;
-  }
-
-  .stats__content {
-    height: 100vh;
-  }
-}
-
-
-.main-content__image {
-  max-width: 100%;
-  height: auto;
-  border-radius: 20px;
-}
-
-.main-content__header-text {
-  margin-bottom: 15px;
-  font-weight: bold;
-  font-size: 36px;
-}
-
-.main-content__info {
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.stats {
-  margin-bottom: 100px;
-}
-
-.stats__content {
-  height: 40vh;
-  background: linear-gradient(127deg, rgba(167, 89, 209, 0.9) 0%, rgba(130, 97, 238, 1) 91%),
-  url(/assets/images/stats.webp) left 50% top 50% / cover no-repeat;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.stats.counter {
-  position: initial;
-}
-
-.stats.counter.counter::before {
-  position: relative;
-}
-
-
